@@ -3,5 +3,5 @@ project(leetcode)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES main.cpp 5_最长回文串.cpp 6_z字形变换.cpp 7_反转整数.cpp)
+set(SOURCE_FILES main.cpp 5_最长回文串.cpp 6_z字形变换.cpp 7_反转整数.cpp "8_字符串转整数 (atoi).cpp")
 add_executable(leetcode ${SOURCE_FILES})
